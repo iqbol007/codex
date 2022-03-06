@@ -1,10 +1,17 @@
+class Node {
+  constructor(data, next = null) {
+    this.data = data;
+    this.next = next;
+  }
+}
+
 class LinkedList {
   constructor() {
     this.head = null;
     this.tail = null;
   }
   append(data) {
-    const node = { data, next: null };
+    const node = new Node(data);
     if (this.tail) {
       this.tail.next = node;
     }
@@ -26,7 +33,7 @@ class LinkedList {
     }
   }
   prepend(data) {
-    this.head = { data, next: this.head };
+    this.head = new Node(data, this.head);
     if (!this.tail) {
       this.tail = this.head;
     }
@@ -45,7 +52,7 @@ class LinkedList {
     if (!found) {
       return;
     }
-    const node = { data, next: found.next };
+    const node = new Node(data, found.next);
     found.next = node;
   }
   delete(data) {
