@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;600;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Food</title>
+	</head>
+	<body>
+		<header class="wrapper">
+			<nav class="align-center pt-3">
+				<h1 id="header-food">Food</h1>
+				<h1 id="header-delivery">delivery</h1>
+			</nav>
+		</header>
+		<main class="wrapper main d-flex justify-content-center">
+			<form class="login-form" onsubmit="preventDefault()">
+				<h1>Login</h1>
+				<article>
+					Sign in with your data that you entered during your registration.
+				</article>
+				<div class="input-group">
+					<div class="input-item pt-3">
+						<div >
+							<label for="email" class="input-label">Email</label>
+						</div>
+						<input
+							type="text"
+							name="email"
+							class="input-form"
+							id="email"
+							placeholder="name@example.com"
+						/>
+					</div>
+					<div class="input-item pt-1">
+						<div>
+							<label for="password" class="input-label">Password</label>
+						</div>
+						<input
+							type="text"
+							name="password"
+							class="input-form"
+							id="password"
+							placeholder="min. 8 characters"
+						/>
+					</div>
+				</div>
+				<div class="input-item pt-4">
+					<input type="checkbox" name="keep-me-logged" id="keep-logged" />
+					<label for="keep-logged">Keep me logged in</label>
+					<div class="input-item pt-5">
+						<button class="login-btn">Login</button>
+					</div>
+					<div class="input-item pt-3 text-center">
+						<span class="text-blue">Forgot password</span>
+					</div>
+				</div>
+			</form>
+		</main>
+
+		<nav>
+
+		
+
+		</nav>
+
+		<footer class="wrapper d-flex justify-content-center">
+			<span>
+				Don’t have an account?
+				<a href="" class="sign-up"> Sign up </a>
+			</span>
+		</footer>
+		<script src="./index.js"></script>
+	</body>
+</html>
