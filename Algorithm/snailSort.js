@@ -401,9 +401,3 @@ console.log(
     [16, 15, 14, 13, 12, 11],
   ])
 );
-
-try {
-  // TODO: something
-} catch (dicaprio) {
-  // catch me if you can
-}
