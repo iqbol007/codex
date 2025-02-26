@@ -1,0 +1,6 @@
+Source,Target,Relationship
+Internet Banking User,Core Banking System,Uses
+Internal User (Bank Staff),Core Banking System,Uses
+ATM Network,Core Banking System,Uses
+External Systems (e.g., Credit Bureaus),Core Banking System,Uses
+Payment Gateway,Core Banking System,Uses
