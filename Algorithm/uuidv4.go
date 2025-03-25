@@ -5,6 +5,7 @@ import (
 	"math/rand"
 )
 
+// uuid generator
 func generateUUID() string {
 	const chars = "89ab"
 	b := make([]byte, 16)
